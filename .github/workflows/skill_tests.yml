@@ -9,7 +9,7 @@ jobs:
   py_build_tests:
     uses: neongeckocom/.github/.github/workflows/python_build_tests.yml@master
   skill_unit_tests:
-    uses: neongeckocom/.github/.github/workflows/skill_tests.yml@master
+    uses: neongeckocom/.github/.github/workflows/skill_tests.yml@FEAT_UpdateSkillTestsPythonVersions
   skill_intent_tests:
     uses: neongeckocom/.github/.github/workflows/skill_test_intents.yml@master
     with:
